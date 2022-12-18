@@ -1,16 +1,5 @@
 proxies:
-- name: danugayeng02a
-  type: trojan
-  server: do-gayeng.potatonc.my.id
-  port: 443
-  password: a1e5fc61-b8a2-4409-a18d-5b7cf322bca1
-  udp: true
-  sni: teams.live.com
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
-- name: danuterong02b
+- name: danuterong02a
   type: trojan
   server: 172.67.199.34
   port: 443
@@ -23,3 +12,14 @@ proxies:
     path: /terong
     headers:
       Host: b19f.vpsxc.my.id
+- name: danugayeng02b
+  type: trojan
+  server: do-gayeng.potatonc.my.id
+  port: 443
+  password: a1e5fc61-b8a2-4409-a18d-5b7cf322bca1
+  udp: true
+  sni: teams.live.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
