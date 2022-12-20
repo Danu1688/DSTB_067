@@ -12,7 +12,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-do.sshpremium.my.id
-- name: danGrpcu04
+- name: danGrpc04
   type: trojan
   server: wsindo.aryossh.my.id
   port: 443
