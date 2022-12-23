@@ -56,11 +56,3 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: trojan-grpc
-- name: danugfw01
-  type: trojan
-  server: sg-do2.sshpremium.my.id
-  port: 443
-  password: f85f8b68-2b62-42c9-81cb-c353cb902301
-  udp: true
-  sni: teams.live.com
-  skip-cert-verify: true
