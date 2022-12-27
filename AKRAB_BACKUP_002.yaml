@@ -12,7 +12,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-do.sshpremium.my.id
-- name: danuGo01
+- name: danuWs01
   type: trojan
   server: 172.67.199.34
   port: 443
@@ -25,6 +25,19 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
+- name: danuWs02
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 9bc9072e-61a7-439d-b67a-70fcd84e9a0b
+  udp: true
+  sni: sg-do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-do.sshpremium.my.id
 - name: danuWs03
   type: trojan
   server: wsindo.aryossh.my.id
@@ -90,7 +103,33 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danGrpc04
+- name: danuWs10a
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs10b
+  type: trojan
+  server: 104.21.21.147
+  port: 443
+  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuGrpc04
   type: trojan
   server: 172.67.199.34
   port: 443
@@ -118,7 +157,7 @@ proxies:
   port: 443
   password: 2d0c0e9e-1bc7-473c-8943-3408cfb0f8cb
   udp: true
-  sni: teams.live.com
+  sni: 172.67.199.34
   skip-cert-verify: true
   network: grpc
   grpc-opts:
@@ -134,3 +173,11 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: trojan-grpc
+- name: danugfw01
+  type: trojan
+  server: sg-do2.sshpremium.my.id
+  port: 443
+  password: f85f8b68-2b62-42c9-81cb-c353cb902301
+  udp: true
+  sni: teams.live.com
+  skip-cert-verify: true
