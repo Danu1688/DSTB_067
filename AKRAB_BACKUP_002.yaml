@@ -79,7 +79,7 @@ proxies:
       Host: sg-do.sshpremium.my.id
 - name: danuWs03
   type: trojan
-  server: wsindo.aryossh.my.id
+  server: 172.67.199.34
   port: 443
   password: 4ca9b740-88cf-46ed-a4d5-35322b45d28f
   udp: true
