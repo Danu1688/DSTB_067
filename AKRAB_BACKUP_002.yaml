@@ -1,5 +1,5 @@
 proxies:
-- name: danuWs02-SNIaa
+- name: danuWs02-SNIa
   type: trojan
   server: sg-do.sshpremium.my.id
   port: 443
