@@ -1,15 +1,14 @@
 proxies:
-- name: danuWs02-20.226
+- name: danuWs02=>danu04-20.226
   type: trojan
   server: 104.18.20.226
   port: 443
-  password: 9bc9072e-61a7-439d-b67a-70fcd84e9a0b
+  password: 3605cc31-054b-4c71-9b1f-57fe23b48ce3
   udp: true
-  sni: sg-do.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: sg-do.sshpremium.my.id
-
+      Host: sg-cth.sshpremium.my.id
