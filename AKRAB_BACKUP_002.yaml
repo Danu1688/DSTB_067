@@ -12,3 +12,16 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-cth.sshpremium.my.id
+- name: danuWs01-Vision+
+  type: trojan
+  server: 104.21.235.171
+  port: 443
+  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
