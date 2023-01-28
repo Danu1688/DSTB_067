@@ -1,7 +1,7 @@
 proxies:
-- name: danuWs02=>danu04-20.226
+- name: danuWs02=>danu04-Vision+
   type: trojan
-  server: 104.18.20.226
+  server: 104.21.235.171
   port: 443
   password: 3605cc31-054b-4c71-9b1f-57fe23b48ce3
   udp: true
