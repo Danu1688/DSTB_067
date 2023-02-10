@@ -1,17 +1,4 @@
 proxies:
-- name: danuWs02=>danu04-Vision+
-  type: trojan
-  server: visionplus.id
-  port: 443
-  password: 3605cc31-054b-4c71-9b1f-57fe23b48ce3
-  udp: true
-  sni: sg-cth.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-cth.sshpremium.my.id
 - name: danuWs01-Vision+
   type: trojan
   server: visionplus.id
@@ -25,32 +12,19 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs03-Vision+
-  type: trojan
-  server: visionplus.id
-  port: 443
-  password: 44b89e90-cbdd-44bd-886c-c72383b61ca3
-  udp: true
-  sni: sg-cth.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-cth.sshpremium.my.id
 - name: danuWs04-Vision+
   type: trojan
   server: visionplus.id
   port: 443
-  password: 3605cc31-054b-4c71-9b1f-57fe23b48ce3
+  password: 5b436895-4f26-40a0-b119-9a0f8926ed42
   udp: true
-  sni: sg-cth.sshpremium.my.id
+  sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: sg-cth.sshpremium.my.id
+      Host: sg-ctn.sshpremium.my.id
 - name: danuWs05-Vision+
   type: trojan
   server: visionplus.id
@@ -103,19 +77,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs09-Vision+
-  type: trojan
-  server: visionplus.id
-  port: 443
-  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
-  udp: true
-  sni: sg-cth.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-cth.sshpremium.my.id
 - name: danuWs10-Vision+
   type: trojan
   server: visionplus.id
@@ -142,16 +103,16 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs12-Vision+
+- name: danuWs14-Vision+
   type: trojan
   server: visionplus.id
   port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
+  password: e04624b1-edac-46df-8a55-5d52efa9af6d
   udp: true
-  sni: sg-do2.sshpremium.my.id
+  sni: sg-do.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: sg-do2.sshpremium.my.id
+      Host: sg-do.sshpremium.my.id
